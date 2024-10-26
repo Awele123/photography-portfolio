@@ -74,7 +74,7 @@ section.bodycon {
   
 }
 .couple1 img{
-    width: 100%;
+    width: auto;
     height: 50vh;
     border-radius: 20px;
     object-fit: cover;
@@ -230,6 +230,8 @@ padding: 10px;
 }
 
 .couple1 img {
+width: auto;
+margin: 10px;
 height:35vh;
 }
 
@@ -246,7 +248,7 @@ section.bodycon {
    }
  }
 .text{
-    height: 80vh;
+    height: 90vh;
 }
     
 
