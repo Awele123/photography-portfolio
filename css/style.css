@@ -214,5 +214,40 @@ section.review{
 color:#E2AE32;
 }
 
- 
+ @media screen  and (max-width: 576px){
+.box {
+        margin: 10px;
+        width: 100;
+        height: 27vh;    
+    }
+.box p{
+    text-align: center;
+}
+
+.body-icon {
+justify-self: center;
+padding: 10px;
+}
+
+.couple1 img {
+height:35vh;
+}
+
+.review{
+height: 100vh;
+margin-top: 20px;
+}
+/* section.review {
+    width: 100%;
+} */
+section.bodycon {
+    height: 100vh;
+    margin-bottom: 40px;
+   }
+ }
+.text{
+    height: 80vh;
+}
+    
+
   
