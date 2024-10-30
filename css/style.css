@@ -1,8 +1,11 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "Ubuntu", sans-serif;
-    background-color:#0C0E0D;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+        background-color:#0C0E0D;
     color: white;
 }
 
@@ -85,7 +88,7 @@ section.bodycon {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     gap: 20px;
     width: 100%;
@@ -95,13 +98,16 @@ section.bodycon {
 .body-icon{
    padding-bottom: 30px;
     margin-bottom: 20px;
+    /* text-align: center; */
     color: #E2AE32;
 }
 .box p {
     font-size: 15px;
     font-weight:400;
+  
 }
 .title{
+    /* text-align: center; */
     font-weight:bold;
     font-size: 20px;
 
@@ -164,11 +170,13 @@ section.review{
      object-fit: contain;
 
  }
+
  .photo-con{
     display: flex;
     flex-direction: column;
     gap: 50px;
  }
+
   .icons{
     display: flex;
     flex-direction: column;
@@ -181,6 +189,7 @@ section.review{
   .icons a{
     color:#E2AE32;
   }
+
   section.con-container {
      background: linear-gradient( rgba(0, 0, 0, .7) 30%, rgba(0, 0, 0, 0.1)), url(../assets/acc6.jpg);
      height: 100vh;
@@ -188,6 +197,7 @@ section.review{
      flex-direction: column;
      gap: 30px;
   }
+
   section.con-body{
     display: flex;
     flex-direction: column;
@@ -196,6 +206,7 @@ section.review{
     gap: 30px;
     justify-content: center;
    }
+
    .instruction{
     font-weight: 800;
     
@@ -205,27 +216,50 @@ section.review{
     flex-direction: column;
     align-items: center;
    }
+
  .icons-footer{
-            display: flex;
-            justify-content: center;
-            gap: 20px;
+display: flex;
+justify-content: center;
+gap: 20px;
            
-        }
+}
 .icons-footer a{
-color:#E2AE32;
+color:#E2AE32; 
 }
 
+section.bod{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.accordion-body {
+    background-color: #000;
+    color: white;
+}
+.accordion-button:not(.collapsed){
+    background-color:white;
+}
+ .accordion-button {
+     background-color: #000000;
+     color: white;
+ }
+ 
+
  @media screen  and (max-width: 576px){
-    .hero{
-        width: 100%;
+    section.maincontainer{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 .box {
+    display: flex;
+    flex-direction: column;
         margin: 10px;
-        width: 300px;
+        width: 100%;
         height: 27vh;
         gap: 10px;
-        align-content: center;
-        justify-content: center;
+   
       
     }
 .box p{
@@ -233,24 +267,30 @@ color:#E2AE32;
 }
 
 .body-icon {
-justify-self: center;
+text-align: center;
 padding: 10px;
 }
 
 .couple1 img {
-width: 300px;
-margin: 10px;
+margin: 0 auto;
+width:100%;
+object-fit: contain;
 height:35vh;
 }
+.love{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
 
+}
 .review{
-width: 100%;
 height: auto;
 margin-top: 50px;
+text-align: center;
 }
-/* section.review {
-    width: 100%;
-} */
+
 section.bodycon {
     height: 100vh;
     margin: 40px;
@@ -259,6 +299,6 @@ section.bodycon {
 .text{
     height: 90vh;
 }
-.
+
 
   
